@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<services>
+    <service>
+        <id>email-notification</id>
+        <class>org.apache.nifi.bootstrap.notification.email.EmailNotificationService</class>
+        <property name="SMTP Hostname">smtp.gmail.com</property>
+        <property name="SMTP Port">587</property>
+        <property name="SMTP Username">karthikeyan.siva@tigeranalytics.com</property>
+        <property name="SMTP Password">thisisnotmypassword</property>
+        <property name="SMTP TLS">true</property>
+        <property name="From">karthikeyan.siva@tigeranalytics.com</property>
+        <property name="To">karthikeyan.siva@tigeranalytics.com</property>
+    </service>   
+</services>
